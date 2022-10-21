@@ -1,0 +1,11 @@
+version: "1.0"
+
+services:
+  frauddetectionapp:
+    container_name: age_gender_emotional_app_c
+    image: amadou/age_gender_emotional_app
+    ports:
+      - "5000:5000"
+    build:
+      context: .
+      dockerfile: Dockerfile

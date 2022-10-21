@@ -1,0 +1,10 @@
+tensorflow-gpu
+tf-nightly
+keras
+Pillow
+numpy
+opencv-python
+uuid
+flask
+opencv
+matplotlib
